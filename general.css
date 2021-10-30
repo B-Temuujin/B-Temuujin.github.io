@@ -1,0 +1,10 @@
+/* TYPOGRAPHY */
+body {
+	color: black;
+	font-family: 'Gotham Book', sans-serif;
+}
+/* FORMS */
+input {
+	border: 2px solid black;
+	background-color: white;
+}
