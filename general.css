@@ -1,10 +1,82 @@
 /* TYPOGRAPHY */
-body {
+body, button, option {
 	color: black;
-	font-family: 'Gotham Book', sans-serif;
+	font-family: 'Gotham', sans-serif;
+	font-size: 16px;
+}
+.medium {
+	font-size: 20px;
+}
+.title {
+	font-size: 24px;
 }
 /* FORMS */
-input {
-	border: 2px solid black;
-	background-color: white;
+input, select {
+	border: 3px solid black;
+	background: white;
+	height: 40px;
+	box-sizing: border-box;
+}
+/* STRUCTURE */
+body, html {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+	header {
+		height: 0;
+		width: 100%;
+	}
+		.ui-top {
+			align-items: flex-end;
+			top: 40px;
+		}
+		.ui-top:nth-of-type(1) {
+			left: 50px;
+		}
+		.ui-top:nth-last-of-type(1) {
+			right: 50px;
+		}
+			.ui-top button {
+				justify-content: flex-end;
+			}
+	.ui-bottom {
+		align-items: flex-start;
+		bottom: 40px;
+	}
+	.ui-bottom:nth-of-type(1) {
+		left: 50px;
+	}
+	main .ui-bottom {
+		right: 50px;
+	}
+	nav {
+		display: none;
+	}
+.ui {
+	display: flex;
+	position: fixed;
+	z-index: 100;
+}
+.ui span {
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+.ui div {
+	display: flex;
+	align-items: center;
+	border: none;
+	width: 100%;
+}
+.ui div button {
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	padding: 0;
+}
+button svg {
+	height: 25px;
 }
