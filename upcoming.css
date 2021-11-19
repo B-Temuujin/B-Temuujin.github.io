@@ -1,0 +1,47 @@
+main {
+	width: 100%;
+	padding-top: 40px;
+}
+	.up-header {
+		display: flex;
+		justify-content: center;
+		gap: 10px;
+	}
+	.up-content {
+		padding: 5% 10%;
+		width: 80%;
+	}
+		.up-list {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+			.up-list li {
+				height: 150px;
+				border-top: solid black 2px;
+			}
+				.up-list li a {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					height: 100%;
+				}
+					.desc {
+						width: 65%;
+					}
+					.type {
+						text-transform: uppercase;
+					}
+					.date {
+						width: 150px;
+						display: flex;
+						justify-content: flex-end;
+						gap: 10px;
+					}
+					.date div:nth-of-type(1) {
+						font-size: 32px;
+					}
+						.month {
+							width: 50px;
+							text-align: right;
+						}

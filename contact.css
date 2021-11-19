@@ -1,0 +1,53 @@
+main {
+	width: 100%;
+	padding-top: 40px;
+}
+	.co-container {
+		width: 80%;
+		padding: 5% 10%;
+	}
+		.co-head {
+			text-align: center;
+			font-size: 50px;
+			padding-bottom: 50px; 
+		}
+		.co-content form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 10px;
+		}
+			.co-content form label {
+				margin-bottom: 5px;
+			}
+			.first {
+				display: flex;
+				justify-content: space-between;
+			}
+				.email {
+					width: 49%;
+				}
+				.select {
+					width: 40%;
+				}
+				.other {
+					width: 9%;
+				}
+			.second {
+				display: flex;
+				justify-content: space-between;
+			}
+				.name {
+					width: 49%;
+				}
+				.number {
+					width: 50%;
+				}
+			.subject {
+
+			}
+				.subject input {
+					height: 150px;
+					line-height: 10px;
+					padding: 0 5px;
+				}
